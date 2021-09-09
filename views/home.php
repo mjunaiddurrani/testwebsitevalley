@@ -3131,10 +3131,27 @@ var pricingsec = `
 // setTimeout(() => {
   
 // }, 5000);
-$(document).ready(function(){
-  $('.pricingsec').html(pricingsec);
+var  checNewIT = true;
+  
+  var scrollY = $(document).scroll(function(){
+        var scrollYHeight = $(this).scrollTop();
+        if(scrollYHeight >300){
+          if(checNewIT === true){
+    console.log('working');
+            $('.pricingsec').html(pricingsec);
+            // $('head').append(' <link rel="stylesheet" href="css/style.css">');
+            checNewIT =false;
+          }
+        }
 
-})
+
+  });
+
+
+// $(document).ready(function(){
+//   $('.pricingsec').html(pricingsec);
+
+// })
 </script>
 
 <script>
