@@ -49,7 +49,7 @@ html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
-    -ms-overflow-style: scrollbar;
+    /* -ms-overflow-style: scrollbar; */
     -webkit-tap-highlight-color: transparent
 }
 
@@ -9203,8 +9203,8 @@ a.text-dark:hover {
 
 @media print {
     *,
-    ::after,
-    ::before {
+     ::after,
+     ::before {
         text-shadow: none!important;
         box-shadow: none!important
     }
