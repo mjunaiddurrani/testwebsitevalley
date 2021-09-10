@@ -105,13 +105,7 @@ debug: false,
 
 
 
-$(document).ready(function(){
-  $('head').append(`
-  <link href="assets/css/m-style.css" rel="stylesheet" type="text/css" />
-<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
 
-  `);
-})
 
 
 $(document).on("click",".ys-container",function(){
