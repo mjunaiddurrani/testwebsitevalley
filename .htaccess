@@ -29,15 +29,7 @@ RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L,NE]
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
-    Accept-Encoding: gzip
-    Accept-Encoding: compress
-    Accept-Encoding: deflate
-    Accept-Encoding: br
-    Accept-Encoding: identity
-    Accept-Encoding: *
-
-    // Multiple algorithms, weighted with the quality value syntax:
-    Accept-Encoding: deflate, gzip;q=1.0, *;q=0.5
+    
 
 
 
@@ -47,6 +39,11 @@ AddType text/cache-manifest .manifest
 # RewriteCond %{REQUEST_FILENAME} !^/(index\.html|index\.php)$
 # RewriteRule ^.+\.(php|html) - [F]
 
+Accept-Encoding: gzip
+
+Accept-Encoding: gzip, compress, br
+
+Accept-Encoding: br;q=1.0, gzip;q=0.8, *;q=0.1
 </IfModule>
 
 # BEGIN cPanel-generated php ini directives, do not edit
