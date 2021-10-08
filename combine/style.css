@@ -1,0 +1,14 @@
+body{
+    color: #000;
+}
+img{
+    max-width: 100%;
+}
+.whatPeopleSaid{
+    color: #fff;
+}
+.content-section-cu *{
+    background-color: #fff;
+    padding:10px;
+    border-radius: 8px;
+}

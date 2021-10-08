@@ -1,1116 +1,618 @@
 <!doctype html>
-<html lang="en-GB">
-
-<!-- Mirrored from websitevalley.co.uk/web-app-development by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 21 Jan 2021 17:40:53 GMT -->
-<!-- Added by HTTrack --><head>
-
-<title>Top Web Application Development Services Company in UK</title>
-<meta name="description" content="We offer a wide range of custom web app development services at cheap price in the UK. Hire our expert web app developers for developing amazing web apps.">
-
-
-
-
-<?php include_once('includes/head.php');?><!-- seo  -->
-<meta property="og:locale" content="en_GB" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Top Web Application Development Services Company in UK" />
-  <meta property="og:description" content="We offer a wide range of custom web app development services at cheap price in the UK. Hire our expert web app developers for developing amazing web apps." />
-  <meta property="og:url" content="<?= $requesMet.'://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'] ?>" />
-  <meta property="og:site_name" content="websitevalley" />
-  <meta property="article:publisher" content="https://www.facebook.com/websitevalley" />
-  <meta property="og:image" content="<?= $requesMet.'://'.$_SERVER['HTTP_HOST']; ?>/assets/images/logo.png" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:creator" content="@websitevalleyuk" />
-  <meta name="twitter:site" content="@websitevalleyuk" />
-  <meta name="twitter:image:src" content="<?= $requesMet.'://'.$_SERVER['HTTP_HOST']; ?>/assets/images/logo.png">
-
-
-
-
-
-
-
-
-
-
-</head>
-<body class="innerpages ecomm webaapdevpge hdar-clr">
-
-
-
-
-
-<!-- Mobile Navigation Button End-->
-
-<?php include_once('includes/header.php');?>
-
-
-
-
-
-
-
-<div class="slider-wrapper">
-  <section class="banslidee">
-    <div class="item">
-      <div class="home-banner d-flex" style="background-image:url(assets/images/banners/hm8.jpg);background-position: center -50px;">
-        <div class="container align-self-center">
-          <div class="row">
-            <div class=" col-lg-5">
-              <div class="home-banner-content">
-                <h1>Custom Web Application Development Services in the UK</h1>
-                <p class="subtitle">This moment is the perfect opportunity to boost your market strength and game up your sales level. Our web app development company in the UK allows you to engage your web visitors through interactive web app designs. Build your web applications that can:</p>
-                <ul class="myticks">
-
-                  <li>Reach millions of business consumers </li>
-                  <li>Grow your income and profits </li>
-                  <li>Generate more leads</li>
-                  <li>Create a substantial place for business operations </li>
-                </ul>
-                <a href="" data-toggle="modal" data-target="#modalForDiscount" class="btn-theme" >Develop my Website </a>
+<html lang="en-US">
+  <head>
+    <?php include_once('include/styles.php') ?>    
+    <link rel="stylesheet" href="css/services.css">
+    <title>WE CREATE YOUR IDEAL WEB APPLICATION AT A VERY AFFORDABLE PRICE.</title>
+    <meta name="description" content="Get all of your website needs fulfilled by the most expert web developers at The Web Founders. At a very affordable rates.">
+  </head>
+  <body class="services">
+    <?php include_once('include/header.php') ?>
+    <section class="section1" style="background: url('/images/banner/web-app.jpg')no-repeat center center/cover;">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row text-center text-sm-center text-md-left">
+          <div class="col-12 text-center">
+            <h4 class="font-w400 pb-4 font-18 let-space-2">We provide you with custom web application development services.</h4>
+            <h1 class="">Web Application & Development Services</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-3 py-md-5" style="">
+      <div class="container py-3">
+        <div class="row text-dark">
+          <div class="col-12 text-center p">
+            <p class="font-15 let-space-2">CUSTOMIZED</p>
+            <p class="font-43 font-w800">We create unique app designs to <BR>help grow your reach</p>
+              <h6 class="font-w500">As a web application development company, we know the web application's objectives; we can characterize the undertaking. Web Application pages highlight the App needed to satisfy the objective and the timetable for building those out. With the extension all around characterized, we can begin delving into the sitemap, characterizing how the substance in degree definition will interrelate. Since we have a greater image of the App as a top priority, we can begin making content for the individual pages, continually keeping website streamlining (Web optimization) as a primary concern to help keep pages zeroed in on a solitary point. 
+              </h6>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-3 py-md-5">
+      <div class="container py-3">
+        <div class="row text-center text-md-left">
+          <div class="col-md-6 text-grey">
+            <p class="font-w500 font-20">Target Your Audience Better</p>
+            <hr class="line-bot-green-74">
+            <h3 class="font-40 font-w800 text-dark">Why Create a <br>Web-Application</h3>
+            <p class="font-14">When everything's working delightfully, it's an ideal opportunity to design and execute your web application's dispatch! This should incorporate arranging both dispatch timing and correspondence systems for the Custom web application development services, when will you dispatch, and how you might let the world know? From that point onward, it's an ideal opportunity to break out the bubbly. Contrasted with electronic web applications give an entire scope of business points of interest. These applications can be acquired from any PC through the web.</p>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-5">
+            <img src="images/services/web-app-development-img.jpg" class="img-fluid" alt="offer">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-3 py-md-5">
+      <div class="container-fluid p-0">
+        <div class="row m-0">
+          <div class="col-12 text-center p-0">
+            <p class="let-space-2 text-grey">Our App Designs</p>
+            <hr class="line-bot-green-74 mx-auto">
+            <h3 class="font-45 text-dark font-w700 position-relative">Custom Web Application designs.</h3>
+            <p class="font-180 font-w900 text-portfolio mb--45">PORTFOLIO</p>
+            <div class="owl-carousel owl-theme  mt-5" id="owl-services">
+              <div class="item">
+              
+              <div class="">
+                <div class="testimonialItem ">
+                  <img src="images/home/portfolio/web/web_1.jpg" alt="Website Portfolio" class="img-fluid w-100">
+                  <!-- <span class="tlabels">Graphic & <br>Print Design</span> -->
+                </div>
               </div>
+            </div>
+            <div class="item">
+              
+              <div class="">
+                <div class="testimonialItem ">
+                  <img src="images/home/portfolio/web/web_2.jpg" alt="Website Portfolio" class="img-fluid w-100">
+                  <!-- <span class="tlabels">Graphic & <br>Print Design</span> -->
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              
+              <div class="">
+                <div class="testimonialItem ">
+                  <img src="images/home/portfolio/web/web_3.jpg" alt="Website Portfolio" class="img-fluid w-100">
+                  <!-- <span class="tlabels">Graphic & <br>Print Design</span> -->
+                </div>
+              </div>
+            </div>
+
+
+            <div class="item">
+              
+              <div class="">
+                <div class="testimonialItem ">
+                  <img src="images/home/portfolio/web/web_4.jpg" alt="Website Portfolio" class="img-fluid w-100">
+                  <!-- <span class="tlabels">Graphic & <br>Print Design</span> -->
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="item">
+              
+              <div class="">
+                <div class="testimonialItem ">
+                  <img src="images/home/portfolio/web/web_5.jpg" alt="Website Portfolio" class="img-fluid w-100">
+                  <!-- <span class="tlabels">Graphic & <br>Print Design</span> -->
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="item">
+              
+              <div class="">
+                <div class="testimonialItem ">
+                  <img src="images/home/portfolio/web/web_6.jpg" alt="Website Portfolio" class="img-fluid w-100">
+                  <!-- <span class="tlabels">Graphic & <br>Print Design</span> -->
+                </div>
+              </div>
+            </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    
-    
-  </section>
-</div>
+    </section>
 
 
-
-<div class="mysatisfied">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="fullwrapper">
-          <div class="leftwrap">
-            <p class="h3">Satisfied Customers<strong><span class="timer">1874</span>+</strong></p>
+    <section id="tabs" class="pt-3 pt-md-5 project-tab text-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center p">
+            <p class="font-15 let-space-2">Cost-Effective</p>
+            <h2 class="font-50 font-w800">Web Application Packages<br>
+              For Any Budget</h2>
+              <p class="font-w300 text-grey">Are you convinced yet? If not then you surely would be after you take a look at our packages. We offer extremely market competitive prices that are easier on our customers. This helps us satisfy all your needs the best way we can. 
+              </p>
           </div>
-          <div class="rightwrap">
-            <div class="coslider">
-
-              <div>
-                <ul class="countslide">
-                  <li><p class="h4"><span class="timer">1300</span>+</p><p>Web Design</p></li>
-                  <li><p class="h4"><span class="timer">780</span>+</p><p>Custom Website Development</p></li>
-                  <li><p class="h4"><span class="timer">1290</span>+</p><p>Single Page <br> Websites</p></li>
-                  <li><p class="h4"><span class="timer">1500</span>+</p><p>Ecommerce <br> Websites</p></li>
-                  <li class="nbr"><p class="h4"><span class="timer">9000</span>+</p><p>Landing <br> Pages</p></li>
-                  <!-- <li class="nbr"><h4>50+</h4><p>Award Winning <br> Designers</p></li> -->
-                </ul>
-              </div>
-
-              <div>
-                <ul class="figureslide">
-                  <li><p><span>100%</span> Money-back Guarantee</p></li>
-                  <li><p><span>100%</span> Satisfaction Guaranteed</p></li>
-                  <li><p><span>100%</span> Custom <br> Design</p></li>
-                  <li><p>Unlimited <br> Revisions</p></li>
-                  <li class="nbr"><p><span>24 / 7 </span> Customer Support</p></li>
-                </ul>
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<section class="mprocess pbpx-0">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6">
-        <div class="txtwrap">
-          <h2>Web App Development Company for Innovative Thinkers </h2>
-          <p>Web Application Development Services bring you an opportunity to bypass all your competitors by developing a safe place and user experience for your business consumers. Global digitalization has changed the business process and Development; now, business owners are shifting towards web application development due to its increasing demand. Seize this opportunity in your hands, and do not let your buyers go without addressing their requests.</p>
-     
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <figure class="mfig">
-          <img src="assets/images/process-tab-01.png" alt="imgae">
-        </figure>
-     
-      </div>
-      <div class="col-lg-6">
-        <figure class="mfig">
-          <img src="assets/images/create-b2b-web-based-app.png" alt="imgae">
-        </figure>
-     
-      </div>
-      <div class="col-lg-6 ">
-        <div class="txtwrap ">
-          <span class="text-right h2">Website Valley creates B2B and B2C web-based applications to meet the emerging demands in the UK </span>
-          <p class="text-right">Whether your web application is a one-page website or has multiple pages, our company is here to offer you great results that can increase the multi-layered income streams for you. Get in touch today for Web Application Development Services to create a fantastic experience for your users.</p>
-          <ul class="myticks " >
-
-            <li class="text-black myTickLiNew text-left">Top e-Commerce Solution  </li>
-            <li class="text-black myTickLiNew text-left">Web Application Development </li>
-            <li class="text-black myTickLiNew text-left">Affordable Website Maintenance </li>
-            <li class="text-black myTickLiNew text-left">Professional Branding </li>
-            <li class="text-black myTickLiNew text-left">Quick Website Development </li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <div class="txtwrap">
-          <h2>Why do you need Custom web application development services? </h2>
-          <p>Every company has a streamline of processes such as project management, internal communication, marketing, and sales. Therefore, there is always a need to increase the efficiency of web portal development projects. In this regard, web applications development services play a significant role in your day-to-day business operations and web portal development.</p>
-     
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <figure class="mfig">
-          <img src="assets/images/custom-web-app-development-service.png" alt="imgae">
-        </figure>
-     
-      </div>
-      <div class="col-lg-6">
-        <figure class="mfig">
-          <img src="assets/images/earth-on-hand.png" alt="imgae">
-        </figure>
-     
-      </div>
-      <div class="col-lg-6">
-        <div class="txtwrap">
-          <h2>Become more micro-managed with the best web application development company </h2>
-          <p>You can engage with your business consumers better and efficiently. Online consumers in the Uk and worldwide are evolving with time. The earlier search intent, queries, and directions are met, the better your consumers' online experience with you. Therefore, tap into your hidden potential for your business and offer your clients the services they have been looking for with the best company in the UK. </p>
-     
-        </div>
-      </div>
-      
-      
-    </div>
-  </div>
-</section>
-<section class="servicessection">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-lg-2 d-none d-lg-block">
-        <img src="assets/images/leftsection.jpg" alt="left-section-design" class="img-fluid make-height">
-      </div>
-      <div class="col-lg-10 col-md-12 measure-height">
-        <div class="col-lg-4 offset-lg-3">
-          <h2 class="text-center my-5 h4"><b>Our Web Application Development Services</b></h2>
-
         </div>
         <div class="row">
-          <div class="col-lg-6">
-            <div class="contexthere">
-              <h6><b>The Top Business Workflow Web App</b></h6>
-              <p>
-                Whether you are looking to manage your enterprise by creating an internal web-based application system or communicating with the client directly through an organized plan, your web applications will be the essential part of your workflow.
-              </p>
-            </div>
-            <div class="contexthere">
-              <h6><b>Maximize Your Reach Twice Fold</b></h6>
-              <p>
-              Website Valley is the perfect application development company to launch high-performing web applications to maximize your public reach. Our experts will market and distribute your product and services to your online business consumers in no time.
-              </p>
-            </div>
-            <div class="contexthere">
-              <h6><b>The Best Web portal development</b></h6>
-              <p>
-              Our web portal development company is customer-centric and helps you achieve your business goals through a collaborative approach. Regardless of your business industry, such as health care, e-learning, online shop, or partner/vendor type, we will develop aesthetically pleasing and fully functional web portal development.
-              </p>
-            </div>
-            <div class="contexthere">
-              <h6><b>Manage Business with Ease</b></h6>
-              <p>
-              We also offer custom web application development services that will attract and engage your customers. Make your business operatives more organized and function with the help of our experts. Our skilled professionals deliver top-notch web portal development to represent your brand to the world.
-              </p>
-            </div>
-            <div class="contexthere">
-              <h6><b>Engaging Web Applications</b></h6>
-              <p>
-              Designing your website can be a challenging task. We're here to make it easy. With us, reach out to your audience more effectively and conveniently through our services. Our web app development experts hold more than 15 years of experience in creating applications.
-              </p>
-            </div>
-            <div class="contexthere">
-              <h6><b>Perfect Web Development Partner</b></h6>
-              <p>
-              This work history makes us the perfect group of experts to deliver your business requirements related to your web application development. Improve your online business and empower your consumers by offering more convenient services. 
-              </p>
-            </div>
-            <div class="contexthere">
-              <h6><b>Maintenance and Updates </b></h6>
-              <p>
-              Do you want to change your existing old-school web application design? No worries, our experts also offer maintenance, updates, and re-engineering services to bring more effective results for you. Create the best-looking web application of your respected industry, and achieve more online success through your web applications.
-              </p>
-            </div>
-            <div class="contexthere">
-              <h6><b>Unparalleled Support</b></h6>
-              <p>
-              We offer you complete support in every stage of application development, and we will ensure that you have the world-class app ready to be used. Hire the web application development experts to bring significant change to your business.
-              </p>
-            </div>
-            <div class="contexthere">
-              <h6><b>Quick Consulting</b></h6>
-              <p>
-              Need some guidance related to web applications, or want some advice? We are here to guide you and listen to your concerns to provide the best advice to help you make effective decisions. It is always observed that a few minutes' talks with our free consultants can let you release your stress and remove your confusion. Talk to us through a message, or call us at our given number. We are here to upgrade your business to the next level. 
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <img src="assets/images/rightSection.jpg" alt="left-section-design" class="img-fluid make-height ">
-
+                  <div class="owl-carousel owl-theme" id="home-pricing-web">
+                    <div class="item">
+                      <div class="myCard2">
+                        <p class="font-32 font-w800">Startup Website <br> Package</p>
+                        <p class="font-13 text-grey contentScroll contentScroll-upper">Suitable for static based landing pages.</p>
+                        <div class="d-inline-flex align-items-center">
+                          <span class="font-45 font-w800 border-right line-height-45 pr-2 mr-2">£199</span>
+                          <span class="text-dec-line-thro text-red font-24">£400</span>
+                        </div>
+                        <div class="contentScroll">
+                          <p class="dot-before">5 Stock Photos</p>
+                          <p class="dot-before">5 Page Website</p>
+                          <p class="dot-before">3 Banner Design</p>
+                          <p class="dot-before">1 jQuery Slider Banner</p>
+                          <p class="dot-before">FREE Google Friendly Sitemap</p>
+                          <p class="dot-before">Complete W3C Certified HTML</p>
+                          <p class="dot-before">48 to 72 hours TAT</p>
+                          <p class="dot-before">Facebook Page Design</p>
+                          <p class="dot-before">Twitter Page Design</p>
+                          <p class="dot-before">YouTube Page Design</p>
+                          <p class="dot-before">Mobile Responsive will be Additional £99*</p>
+                          <p class="dot-before">CMS will be Additional £149*</p>
+                        </div>
+                        <button class="btn btn-yellow m-0 px-5" data-toggle="modal" data-target="#modalForDiscount">Start Now<i class="fa fa-arrow-right pl-3"></i></button>
+                        <a href="/pricing/startup-website-package/" class="view-detail ">VIEW DETAILS</a>
+                        <div class="row bot-links">
+                          <div class="col-xl-6 border-right">
+                            <div class="text-yellow">Share your idea?</div>
+                            <a class="mob" href="tel:+442038834810">+44 2038 834810</a>
+                          </div>
+                          <div class="col-xl-6 pl-xl-4">
+                            <div class="text-yellow">Want to Discuss?</div>
+                            <a href="javascript:;" class="chat_wrap liveChat">Live Chat Now</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="myCard2">
+                        <p class="font-32 font-w800">Professional Website <br> Package</p>
+                        <p class="font-13 text-grey contentScroll contentScroll-upper">Suitable for basic startups looking to take it one step at a time.</p>
+                        <div class="d-inline-flex align-items-center">
+                          <span class="font-45 font-w800 border-right line-height-45 pr-2 mr-2">£449</span>
+                          <span class="text-dec-line-thro text-red font-24">£1000</span>
+                        </div>
+                        <div class="contentScroll">
+                          <p class="dot-before">10 Page Website</p>
+                          <p class="dot-before">CMS / Admin Panel Support</p>
+                          <p class="dot-before">8 Stock images</p>
+                          <p class="dot-before">5 Banner Designs</p>
+                          <p class="dot-before">1 jQuery Slider Banner</p>
+                          <p class="dot-before">FREE Google Friendly Sitemap</p>
+                          <p class="dot-before">Complete W3C Certified HTML</p>
+                          <p class="dot-before">48 to 72 hours TAT</p>
+                          <p class="dot-before">Facebook Page Design</p>
+                          <p class="dot-before">Twitter Page Design</p>
+                          <p class="dot-before">YouTube Page Design</p>
+                          <p class="dot-before">Dedicated Project Manager</p>
+                          <p class="dot-before">Complete Deployment</p>
+                        </div>
+                        <button class="btn btn-yellow m-0 px-5" data-toggle="modal" data-target="#modalForDiscount">Start Now<i class="fa fa-arrow-right pl-3"></i></button>
+                        <a href="/pricing/professional-website-package/" class="view-detail ">VIEW DETAILS</a>
+                        <div class="row bot-links">
+                          <div class="col-xl-6 border-right">
+                            <div class="text-yellow">Share your idea?</div>
+                            <a class="mob" href="tel:+442038834810">+44 2038 834810</a>
+                          </div>
+                          <div class="col-xl-6 pl-xl-4">
+                            <div class="text-yellow">Want to Discuss?</div>
+                            <a href="javascript:;" class="chat_wrap liveChat">Live Chat Now</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="myCard2">
+                        <p class="font-32 font-w800">Elite Website <br> Package</p>
+                        <p class="font-13 text-grey contentScroll contentScroll-upper">Suitable for potential startups and basic revamps for small companies.</p>
+                        <div class="d-inline-flex align-items-center">
+                          <span class="font-45 font-w800 border-right line-height-45 pr-2 mr-2">£749</span>
+                          <span class="text-dec-line-thro text-red font-24">£1600</span>
+                        </div>
+                        <div class="contentScroll">
+                          <p class="dot-before">Upto 15 Unique Pages Website</p>
+                          <p class="dot-before">Conceptual and Dynamic Website</p>
+                          <p class="dot-before">Mobile Responsive</p>
+                          <p class="dot-before">Online Reservation/Appointment Tool (Optional)</p>
+                          <p class="dot-before">Online Payment Integration (Optional)</p>
+                          <p class="dot-before">Custom Forms</p>
+                          <p class="dot-before">Lead Capturing Forms (Optional)</p>
+                          <p class="dot-before">Striking Hover Effects</p>
+                          <p class="dot-before">Newsletter Subscription (Optional)</p>
+                          <p class="dot-before">Newsfeed Integration</p>
+                          <p class="dot-before">Social Media Integration</p>
+                          <p class="dot-before">Search Engine Submission</p>
+                          <p class="dot-before">5 Stock Photos</p>
+                          <p class="dot-before">3 Unique Banner Design</p>
+                          <p class="dot-before">1 jQuery Slider Banner</p>
+                          <p class="dot-before"> Complete W3C Certified HTML</p>
+                          <p class="dot-before">48 to 72 hours TAT</p>
+                          <p class="dot-before">Facebook Page Design</p>
+                          <p class="dot-before">Twitter Page Design</p>
+                          <p class="dot-before">YouTube Page Design</p>
+                          <p class="dot-before">Dedicated Project Manager</p>
+                          <p class="dot-before">Complete Deployment</p>
+                        </div>
+                        <button class="btn btn-yellow m-0 px-5" data-toggle="modal" data-target="#modalForDiscount">Start Now<i class="fa fa-arrow-right pl-3"></i></button>
+                        <a href="/pricing/elite-website-package/" class="view-detail ">VIEW DETAILS</a>
+                        <div class="row bot-links">
+                          <div class="col-xl-6 border-right">
+                            <div class="text-yellow">Share your idea?</div>
+                            <a class="mob" href="tel:+442038834810">+44 2038 834810</a>
+                          </div>
+                          <div class="col-xl-6 pl-xl-4">
+                            <div class="text-yellow">Want to Discuss?</div>
+                            <a href="javascript:;" class="chat_wrap liveChat">Live Chat Now</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="myCard2">
+                        <p class="font-32 font-w800">Silver Website <br> Package</p>
+                        <p class="font-13 text-grey contentScroll contentScroll-upper">Suitable for strong startups that are looking to build a unique brand identity to help them stand apart from their competitors with a strong brand presence and strong brand revamps for companies.</p>
+                        <div class="d-inline-flex align-items-center">
+                          <span class="font-45 font-w800 border-right line-height-45 pr-2 mr-2">£<?= $silverWebsite?></span>
+                          <span class="text-dec-line-thro text-red font-24">£<?= cutPrice($silverWebsite);?></span>
+                        </div>
+                        <div class="contentScroll">
+                          <p class="dot-before">Custom Made, Interactive, Dynamic &amp; High End Design</p>
+                          <p class="dot-before">Custom WP (or) Custom PHP Development</p>
+                          <p class="dot-before">1 jQuery Slider Banner</p>
+                          <p class="dot-before">Up to 10 Custom Made Banner Designs</p>
+                          <p class="dot-before">10 Stock Images</p>
+                          <p class="dot-before">Unlimited Revisions</p>
+                          <p class="dot-before">Special Hover Effects</p>
+                          <p class="dot-before">Content Management System (CMS)</p>
+                          <p class="dot-before">Online Appointment/Scheduling/Online Ordering Integration (Optional)</p>
+                          <p class="dot-before">Online Payment Integration (Optional)</p>
+                          <p class="dot-before">Multi Lingual (Optional)</p>
+                          <p class="dot-before">Custom Dynamic Forms (Optional)</p>
+                          <p class="dot-before">Signup Area (For Newsletters, Offers etc.)</p>
+                          <p class="dot-before">Search Bar</p>
+                          <p class="dot-before">Live Feeds of Social Networks integration (Optional)</p>
+                          <p class="dot-before">Mobile Responsive</p>
+                          <p class="dot-before">FREE 5 Years Domain Name</p>
+                          <p class="dot-before">Free Google Friendly Sitemap</p>
+                          <p class="dot-before">Search Engine Submission</p>
+                          <p class="dot-before">Complete W3C Certified HTML</p>
+                          <p class="dot-before">Industry Specified Team of Expert Designers and Developers</p>
+                          <p class="dot-before">Complete Deployment</p>
+                          <p class="dot-before">Dedicated Project Manager</p>
+                          <p class="dot-before">Dedicated Accounts Manager</p>
+                          <p class="dot-before">Facebook Page Design</p>
+                          <p class="dot-before">Twitter Page Design</p>
+                          <p class="dot-before">YouTube Page Design</p>
+                        </div>
+                        <button class="btn btn-yellow m-0 px-5" data-toggle="modal" data-target="#modalForDiscount">Start Now<i class="fa fa-arrow-right pl-3"></i></button>
+                        <a href="/pricing/silver-website-package/" class="view-detail ">VIEW DETAILS</a>
+                        <div class="row bot-links">
+                          <div class="col-xl-6 border-right">
+                            <div class="text-yellow">Share your idea?</div>
+                            <a class="mob" href="tel:+442038834810">+44 2038 834810</a>
+                          </div>
+                          <div class="col-xl-6 pl-xl-4">
+                            <div class="text-yellow">Want to Discuss?</div>
+                            <a href="javascript:;" class="chat_wrap liveChat">Live Chat Now</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="myCard2">
+                        <p class="font-32 font-w800">Business Website <br> Package</p>
+                        <p class="font-13 text-grey contentScroll contentScroll-upper">Suitable for mid sized startups who are looking to work with a strong R&D, Creative and marketing team to help develop a unique brand identity, strong digital presense, marketing strategies and help select elements to alter consumer behaviour toawrds their business. These strategies will help to compete directly with some of the top competitors in your target market.</p>
+                        <div class="d-inline-flex align-items-center">
+                          <span class="font-45 font-w800 border-right line-height-45 pr-2 mr-2">£<?= $businessWebsite;?></span>
+                          <span class="text-dec-line-thro text-red font-24">£<?= cutPrice($businessWebsite);?></span>
+                        </div>
+                        <div class="contentScroll">
+                          <p class="dot-before">Custom Made, Interactive, Dynamic &amp; High End Design</p>
+                          <p class="dot-before">Custom WP (or) Custom PHP Development</p>
+                          <p class="dot-before">1 jQuery Slider Banner</p>
+                          <p class="dot-before">Up to 10 Custom Made Banner Designs</p>
+                          <p class="dot-before">10 Stock Images</p>
+                          <p class="dot-before">Unlimited Revisions</p>
+                          <p class="dot-before">Special Hover Effects</p>
+                          <p class="dot-before">Content Management System (CMS)</p>
+                          <p class="dot-before">Online Appointment/Scheduling/Online Ordering Integration (Optional)</p>
+                          <p class="dot-before">Online Payment Integration (Optional)</p>
+                          <p class="dot-before">Multi Lingual (Optional)</p>
+                          <p class="dot-before">Custom Dynamic Forms (Optional)</p>
+                          <p class="dot-before">Signup Area (For Newsletters, Offers etc.)</p>
+                          <p class="dot-before">Search Bar</p>
+                          <p class="dot-before">Live Feeds of Social Networks integration (Optional)</p>
+                          <p class="dot-before">Mobile Responsive</p>
+                          <p class="dot-before">15 Seconds 2D Explainer Video</p>
+                          <p class="dot-before">Voice - Over &amp; Sound Effects</p>
+                          <p class="dot-before">Professional Script Writing</p>
+                          <p class="dot-before">Storyboard</p>
+                          <p class="dot-before">SEO Meta Tags</p>
+                          <p class="dot-before">FREE 5 Years Domain Name</p>
+                          <p class="dot-before">Free Google Friendly Sitemap</p>
+                          <p class="dot-before">Search Engine Submission</p>
+                          <p class="dot-before">Complete W3C Certified HTML</p>
+                          <p class="dot-before">Industry Specified Team of Expert Designers and Developers</p>
+                          <p class="dot-before">Dedicated Accounts Manager</p>
+                          <p class="dot-before">Complete Deployment</p>
+                        </div>
+                        <button class="btn btn-yellow m-0 px-5" data-toggle="modal" data-target="#modalForDiscount">Start Now<i class="fa fa-arrow-right pl-3"></i></button>
+                        <a href="/pricing/business-website-package/" class="view-detail ">VIEW DETAILS</a>
+                        <div class="row bot-links">
+                          <div class="col-xl-6 border-right">
+                            <div class="text-yellow">Share your idea?</div>
+                            <a class="mob" href="tel:+442038834810">+44 2038 834810</a>
+                          </div>
+                          <div class="col-xl-6 pl-xl-4">
+                            <div class="text-yellow">Want to Discuss?</div>
+                            <a href="javascript:;" class="chat_wrap liveChat">Live Chat Now</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="myCard2">
+                        <p class="font-32 font-w800">Automated Conferencing Portal</p>
+                        <p class="font-13 text-grey contentScroll contentScroll-upper">Allows live conferencing features and custom client/user dashboards for clients with a strong semi-automated admin panel.</p>
+                        <div class="d-inline-flex align-items-center">
+                          <span class="font-45 font-w800 border-right line-height-45 pr-2 mr-2">£5000</span>
+                          <span class="text-dec-line-thro text-red font-24">£9999</span>
+                        </div>
+                        <div class="contentScroll">
+                          <p class="dot-before">Unlimited Page Website</p>
+                          <p class="dot-before">Custom Content Management System (CMS)</p>
+                          <p class="dot-before">Unique Pages and UI Design</p>
+                          <p class="dot-before">Complete Custom Development</p>
+                          <p class="dot-before">Process Automation Tools</p>
+                          <p class="dot-before">Newsfeed Integration</p>
+                          <p class="dot-before">Social Media Plugins Integration</p>
+                          <p class="dot-before">Upto 40 Stock images</p>
+                          <p class="dot-before">10 Unique Banner Designs</p>
+                          <p class="dot-before">JQuery Slider</p>
+                          <p class="dot-before">Search Engine Submission</p>
+                          <p class="dot-before">Free Google Friendly Sitemap</p>
+                          <p class="dot-before">Custom Email Addresses</p>
+                          <p class="dot-before">Social Media Page Designs (Facebook, Twitter, Instagram)</p>
+                          <p class="dot-before">Complete W3C Certified HTML</p>
+                          <p class="dot-before">Dedicated Accounts Manager</p>
+                          <p class="dot-before">Complete Deployment</p>
+                          <p class="dot-before">Money Back Guarantee</p>
+                          <p class="dot-before">Automated Course Creation</p>
+                          <p class="dot-before">Video Conferencing</p>
+                          <p class="dot-before">Skills/Certification Tracking</p>
+                          <p class="dot-before">Mobile Learning</p>
+                          <p class="dot-before">Asynchronous Learning</p>
+                          <p class="dot-before">CRM Features</p>
+                          <p class="dot-before">Gamification</p>
+                          <p class="dot-before">Social Learning/Message Boards</p>
+                          <p class="dot-before">Motivational Triggers</p>
+                          <p class="dot-before">Forums And Webinars</p>
+                          <p class="dot-before">E-commerce And Subscriptions</p>
+                          <p class="dot-before">Online Course Booking</p>
+                          <p class="dot-before">Excellent Reporting</p>
+                          <p class="dot-before">Invoicing Integration</p>
+                          <p class="dot-before">Financial Integrations</p>
+                          <p class="dot-before">Student Information management</p>
+                          <p class="dot-before">Automated communications</p>
+                          <p class="dot-before">Learning Management System</p>
+                          <p class="dot-before">Quick And Easy Course Scheduling</p>
+                          <p class="dot-before">Reporting And Data Analysis</p>
+                          <p class="dot-before">Assessment Management &amp; Live Feedback</p>
+                          <p class="dot-before">Gradebooks</p>
+                          <p class="dot-before">Quick User Integration</p>
+                          <p class="dot-before">Easy Payment Methods</p>
+                          <p class="dot-before">Online Communities &amp; Social Engagement</p>
+                          <p class="dot-before">Curation of Resources And Adding Own Resources</p>
+                          <p class="dot-before">Dedicated Accounts Manager</p>
+                        </div>
+                        <button class="btn btn-yellow m-0 px-5" data-toggle="modal" data-target="#modalForDiscount">Start Now<i class="fa fa-arrow-right pl-3"></i></button>
+                        <a href="/pricing/automatedinteractive-conferencing-portal-package/" class="view-detail ">VIEW DETAILS</a>
+                        <div class="row bot-links">
+                          <div class="col-xl-6 border-right">
+                            <div class="text-yellow">Share your idea?</div>
+                            <a class="mob" href="tel:+442038834810">+44 2038 834810</a>
+                          </div>
+                          <div class="col-xl-6 pl-xl-4">
+                            <div class="text-yellow">Want to Discuss?</div>
+                            <a href="javascript:;" class="chat_wrap liveChat">Live Chat Now</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="myCard2">
+                        <p class="font-32 font-w800">Custom CRM <br>Portal</p>
+                        <p class="font-13 text-grey contentScroll contentScroll-upper">Suitable for mid sized and strong Enterprises with Custom Dashboard Features, Automation/Intelligence, CRM Features, Sales Automation, Forecasting and Advanced back office intelligent managmement system.
+                        (Job Portals, Real Estate Portals, I.T Management Portals, Medical Portals, HRM Portals, CRM Portals, Dating Portals, Management Portals)</p>
+                        <div class="d-inline-flex align-items-center">
+                          <span class="font-45 font-w800 border-right line-height-45 pr-2 mr-2">£7000</span>
+                          <span class="text-dec-line-thro text-red font-24">£14000</span>
+                        </div>
+                        <div class="contentScroll">
+                          <p class="dot-before">Unlimited Page Website</p>
+                          <p class="dot-before">Unique Pages and UI Design</p>
+                          <p class="dot-before">Complete Custom Development</p>
+                          <p class="dot-before">Newsfeed Integration</p>
+                          <p class="dot-before">CRM (Customer Relation Management System)</p>
+                          <p class="dot-before">Performance and analytics</p>
+                          <p class="dot-before">Customization of Personal Details</p>
+                          <p class="dot-before">Process management</p>
+                          <p class="dot-before">Sales Automation</p>
+                          <p class="dot-before">Team Collaboration</p>
+                          <p class="dot-before">Marketing Automation</p>
+                          <p class="dot-before">Security</p>
+                          <p class="dot-before">Integrations</p>
+                          <p class="dot-before">Sales Reports</p>
+                          <p class="dot-before">Trend Analytics</p>
+                          <p class="dot-before">Forecasting</p>
+                          <p class="dot-before">Territory Management</p>
+                          <p class="dot-before">Account Management</p>
+                          <p class="dot-before">Event Integration</p>
+                          <p class="dot-before">Advanced Data Security</p>
+                          <p class="dot-before">Account Management</p>
+                          <p class="dot-before">Opportunity Management</p>
+                          <p class="dot-before">Sales Forecasting</p>
+                          <p class="dot-before">Quotes</p>
+                          <p class="dot-before">Contracts</p>
+                          <p class="dot-before">Document Library</p>
+                          <p class="dot-before">Case Management</p>
+                          <p class="dot-before">Analytics and Dashboards</p>
+                          <p class="dot-before">Lead Management</p>
+                          <p class="dot-before">Resource Management</p>
+                          <p class="dot-before">Analytics</p>
+                          <p class="dot-before">Web Intelligence</p>
+                          <p class="dot-before">Automated Emails, Invoices & Estimates</p>
+                          <p class="dot-before">Automated Split invoicing</p>
+                          <p class="dot-before">Automated Combine invoices</p>
+                          <p class="dot-before">Invoice templates</p>
+                          <p class="dot-before">Financial Reports</p>
+                          <p class="dot-before">Generate automated sales reports</p>
+                          <p class="dot-before">Core Features</p>
+                          <p class="dot-before">Reporting</p>
+                          <p class="dot-before">Accounting</p>
+                          <p class="dot-before">Tracking and Visibility</p>
+                          <p class="dot-before">Centralized Modules</p>
+                          <p class="dot-before">Human Resources Management</p>
+                          <p class="dot-before">Business Process Management</p>
+                          <p class="dot-before">Enterprise Analytics</p>
+                          <p class="dot-before">Business Intelligence</p>
+                          <p class="dot-before">Centralized Modules</p>
+                          <p class="dot-before">Accounting</p>
+                          <p class="dot-before">Distribution</p>
+                          <p class="dot-before">Business Intelligence</p>
+                          <p class="dot-before">Insights</p>
+                          <p class="dot-before">Standardization</p>
+                          <p class="dot-before">Procurement</p>
+                          <p class="dot-before">Reporting and Analytics</p>
+                          <p class="dot-before">Projection</p>
+                          <p class="dot-before">Enterprise-wide integration</p>
+                          <p class="dot-before">Real-Time Operations</p>
+                          <p class="dot-before">Problem definition</p>
+                          <p class="dot-before">Description of the program’s objectives and scope</p>
+                          <p class="dot-before">Assumptions</p>
+                          <p class="dot-before">Implementation costs</p>
+                          <p class="dot-before">Implementation schedule</p>
+                          <p class="dot-before">Development and operational risks</p>
+                          <p class="dot-before">Projected benefits</p>
+                          <p class="dot-before">Team Members</p>
+                          <p class="dot-before">Contracts</p>
+                          <p class="dot-before">Infrastructure Upgrades</p>
+                          <p class="dot-before">Create work plans and timelines</p>
+                          <p class="dot-before">Analyze gaps</p>
+                          <p class="dot-before">Configure parameters</p>
+                          <p class="dot-before">Migrate data</p>
+                          <p class="dot-before">Test system</p>
+                          <p class="dot-before">Document system</p>
+                          <p class="dot-before">Online Payment Solutions (optional)</p>
+                          <p class="dot-before">Advanced Admin Features 2.0</p>
+                          <p class="dot-before">User Signup/Login Functionalities</p>
+                          <p class="dot-before">Advanced User Features</p>
+                          <p class="dot-before">User Profile Management</p>
+                          <p class="dot-before">General Configuration Features</p>
+                          <p class="dot-before">Complete W3C Certified HTML</p>
+                          <p class="dot-before">Complete Deployment</p>
+                        </div>
+                        <button class="btn btn-yellow m-0 px-5" data-toggle="modal" data-target="#modalForDiscount">Start Now<i class="fa fa-arrow-right pl-3"></i></button>
+                        <a href="/pricing/custom-crm-portal-website/" class="view-detail ">VIEW DETAILS</a>
+                        <div class="row bot-links">
+                          <div class="col-xl-6 border-right">
+                            <div class="text-yellow">Share your idea?</div>
+                            <a class="mob" href="tel:+442038834810">+44 2038 834810</a>
+                          </div>
+                          <div class="col-xl-6 pl-xl-4">
+                            <div class="text-yellow">Want to Discuss?</div>
+                            <a href="javascript:;" class="chat_wrap liveChat">Live Chat Now</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        <div class="row service-pricing-bot" style="background: url('/images/services/pricing-bottom-img.png')no-repeat center bottom/auto;">
+          <div class="col-12">
+          <p class="font-20 font-w300 text-grey text-center">Your website design needs to stay different and to appear different to gain the attention of your audience. The same cookie-cutter website designs make your business look cheap and unresponsive. Hence visitors don’t convert into clients. Whether you are an entrepreneur, businessman, or a student, your WordPress website needs to reflect your personality. We will help you choose the perfect design the lets your personality shine. Gain the attention you and your business deserve and engage your audience digitally. We ensure that your website remains your visitors' top priority, and they keep coming back to your site. </p>
           </div>
         </div>
       </div>
-        
-    </div>
-  </div>
-</section>
+    </section>
 
-<section class="filterportfolio">
+    <section class="section4 overflow-hidden text-center text-md-left" style="padding-top:70px">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12">
-        
-        <div class="text text-center">
-          <h2>Explore More About Our Ecommerce  Web Design & Development</h2>
-          <p>Looking at the sample work will help you understand our process and creativity, enabling you to make an effective decision! Hire our web design & development agency for a new exciting journey!</p>  
+        <div class="col-md-5 pb-5 pb-lg-0">
+          <p class=" text-uppercase let-space-2 font-w600 text-blue-new text-black" style="letter-spacing: 2px;">OUR website PORTFOLIO</p>
+          <hr class="hrRed">
+          <h3  class=" font-w800 font-45 text-blue-new line-height-45 text-black pt-4" >Fresh from our websites</h3>
         </div>
-
-        
-        <div class="portfoliolist grid loadmorewebapp web-design-portfolio-slider d-none d-md-block">
-               <ul>
-                <li class="border-box-effect logoportfo" data-category="transition">
-                  <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/1.png">
-                    <figure>
-                      <img src="assets/images/portfolio/webapp/1.png" alt="imgae">
-                    </figure>
-                  </a>
-                </li>
-                <li class="border-box-effect logoportfo" data-category="transition">
-                  <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/2.png">
-                    <figure>
-                      <img src="assets/images/portfolio/webapp/2.png" alt="imgae">
-                    </figure>
-                  </a>
-                </li>
-                <li class="border-box-effect logoportfo" data-category="transition">
-                  <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/3.png">
-                    <figure>
-                      <img src="assets/images/portfolio/webapp/3.png" alt="imgae">
-                    </figure>
-                  </a>
-                </li>
-                <li class="border-box-effect logoportfo" data-category="transition">
-                  <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/4.png">
-                    <figure>
-                      <img src="assets/images/portfolio/webapp/4.png" alt="imgae">
-                    </figure>
-                  </a>
-                </li>
-                <li class="border-box-effect logoportfo" data-category="transition">
-                  <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/1.jpg">
-                    <figure>
-                      <img src="assets/images/portfolio/webapp/t-1.jpg" alt="imgae">
-                    </figure>
-                  </a>
-                </li>
-              <li class="border-box-effect logoportfo" data-category="transition">
-                  <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/2.jpg">
-                    <figure>
-                      <img src="assets/images/portfolio/webapp/t-2.jpg" alt="imgae">
-                    </figure>
-                  </a>
-                </li>
-                </ul>
-  <ul>
-  <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/5.png">
-      <figure>
-        <img src="assets/images/portfolio/webapp/5.png" alt="imgae">
-      </figure>
-    </a>
-  </li>
-  <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/6.png">
-      <figure>
-        <img src="assets/images/portfolio/webapp/6.png" alt="imgae">
-      </figure>
-    </a>
-  </li>
-  <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/7.png">
-      <figure>
-        <img src="assets/images/portfolio/webapp/7.png" alt="imgae">
-      </figure>
-    </a>
-  </li>
-  <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/8.png">
-      <figure>
-        <img src="assets/images/portfolio/webapp/8.png" alt="imgae">
-      </figure>
-    </a>
-  </li>
-  <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/3.jpg">
-      <figure>
-        <img src="assets/images/portfolio/webapp/t-3.jpg" alt="imgae">
-      </figure>
-    </a>
-  </li>
-  <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/4.jpg">
-      <figure>
-        <img src="assets/images/portfolio/webapp/t-4.jpg" alt="imgae">
-      </figure>
-    </a>
-  </li>
-  </ul>
-  <ul>
-  <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/9.png">
-      <figure>
-        <img src="assets/images/portfolio/webapp/9.png" alt="imgae">
-      </figure>
-    </a>
-  </li>
-  <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/10.png">
-      <figure>
-        <img src="assets/images/portfolio/webapp/10.png" alt="imgae">
-      </figure>
-    </a>
-  </li>
-  <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/11.png">
-      <figure>
-        <img src="assets/images/portfolio/webapp/11.png" alt="imgae">
-      </figure>
-    </a>
-  </li>
-  <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/12.png">
-      <figure>
-        <img src="assets/images/portfolio/webapp/12.png" alt="imgae">
-      </figure>
-    </a>
-  </li>
-<li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/5.jpg">
-      <figure>
-        <img src="assets/images/portfolio/webapp/t-5.jpg" alt="imgae">
-      </figure>
-    </a>
-  </li>
-    <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/6.jpg">
-      <figure>
-        <img src="assets/images/portfolio/webapp/t-6.jpg" alt="imgae">
-      </figure>
-    </a>
-  </li>
-  </ul>
-  <ul>
-  <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/13.png">
-      <figure>
-        <img src="assets/images/portfolio/webapp/13.png" alt="imgae">
-      </figure>
-    </a>
-  </li>
-  <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/14.png">
-      <figure>
-        <img src="assets/images/portfolio/webapp/14.png" alt="imgae">
-      </figure>
-    </a>
-  </li>
-  <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/15.png">
-      <figure>
-        <img src="assets/images/portfolio/webapp/15.png" alt="imgae">
-      </figure>
-    </a>
-  </li>
-  <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/16.png">
-      <figure>
-        <img src="assets/images/portfolio/webapp/16.png" alt="imgae">
-      </figure>
-    </a>
-  </li>
-     <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/7.jpg">
-      <figure>
-        <img src="assets/images/portfolio/webapp/t-7.jpg" alt="imgae">
-      </figure>
-    </a>
-  </li>
-     <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/8.jpg">
-      <figure>
-        <img src="assets/images/portfolio/webapp/t-8.jpg" alt="imgae">
-      </figure>
-    </a>
-  </li>
-
-</ul>            
-</div>
-<div class="portfoliolist grid loadmorewebapp web-design-portfolio-slider d-block d-md-none">
-               <ul>
-  <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/1.png">
-      <figure>
-        <img src="assets/images/portfolio/webapp/1.png" alt="imgae">
-      </figure>
-    </a>
-  </li>
-</ul>
-<ul>
-  <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/2.png">
-      <figure>
-        <img src="assets/images/portfolio/webapp/2.png" alt="imgae">
-      </figure>
-    </a>
-  </li>
-  </ul>
-<ul>
-  <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/3.png">
-      <figure>
-        <img src="assets/images/portfolio/webapp/3.png" alt="imgae">
-      </figure>
-    </a>
-  </li>
-  </ul>
-<ul>
-  <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/4.png">
-      <figure>
-        <img src="assets/images/portfolio/webapp/4.png" alt="imgae">
-      </figure>
-    </a>
-  </li>
-  </ul>
-<ul>
-   <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/1.jpg">
-      <figure>
-        <img src="assets/images/portfolio/webapp/t-1.jpg" alt="imgae">
-      </figure>
-    </a>
-  </li>
-  </ul>
-<ul>
- <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/2.jpg">
-      <figure>
-        <img src="assets/images/portfolio/webapp/t-2.jpg" alt="imgae">
-      </figure>
-    </a>
-  </li>
-  </ul>
-<ul>
-  </ul>
-  <ul>
-  <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/5.png">
-      <figure>
-        <img src="assets/images/portfolio/webapp/5.png" alt="imgae">
-      </figure>
-    </a>
-  </li>
-  </ul>
-<ul>
-  <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/6.png">
-      <figure>
-        <img src="assets/images/portfolio/webapp/6.png" alt="imgae">
-      </figure>
-    </a>
-  </li>
-  </ul>
-<ul>
-  <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/7.png">
-      <figure>
-        <img src="assets/images/portfolio/webapp/7.png" alt="imgae">
-      </figure>
-    </a>
-  </li>
-  </ul>
-<ul>
-  <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/8.png">
-      <figure>
-        <img src="assets/images/portfolio/webapp/8.png" alt="imgae">
-      </figure>
-    </a>
-  </li>
-  </ul>
-<ul>
-  <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/3.jpg">
-      <figure>
-        <img src="assets/images/portfolio/webapp/t-3.jpg" alt="imgae">
-      </figure>
-    </a>
-  </li>
-  </ul>
-<ul>
-  <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/4.jpg">
-      <figure>
-        <img src="assets/images/portfolio/webapp/t-4.jpg" alt="imgae">
-      </figure>
-    </a>
-  </li>
-  </ul>
-</div>
-<div class="portfoliolist grid loadmorewebapp web-design-portfolio-slider2 d-block d-md-none" dir="rtl">
-  <ul>
-  <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/9.png">
-      <figure>
-        <img src="assets/images/portfolio/webapp/9.png" alt="imgae">
-      </figure>
-    </a>
-  </li>
-  </ul>
-<ul>
-  <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/10.png">
-      <figure>
-        <img src="assets/images/portfolio/webapp/10.png" alt="imgae">
-      </figure>
-    </a>
-  </li>
-  </ul>
-<ul>
-  <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/11.png">
-      <figure>
-        <img src="assets/images/portfolio/webapp/11.png" alt="imgae">
-      </figure>
-    </a>
-  </li>
-  </ul>
-<ul>
-  <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/12.png">
-      <figure>
-        <img src="assets/images/portfolio/webapp/12.png" alt="imgae">
-      </figure>
-    </a>
-  </li>
-  </ul>
-<ul>
-<li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/5.jpg">
-      <figure>
-        <img src="assets/images/portfolio/webapp/t-5.jpg" alt="imgae">
-      </figure>
-    </a>
-  </li>
-  </ul>
-<ul>
-    <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/6.jpg">
-      <figure>
-        <img src="assets/images/portfolio/webapp/t-6.jpg" alt="imgae">
-      </figure>
-    </a>
-  </li>
-  </ul>
-  <ul>
-  <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/13.png">
-      <figure>
-        <img src="assets/images/portfolio/webapp/13.png" alt="imgae">
-      </figure>
-    </a>
-  </li>
-  </ul>
-<ul>
-  <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/14.png">
-      <figure>
-        <img src="assets/images/portfolio/webapp/14.png" alt="imgae">
-      </figure>
-    </a>
-  </li>
-  </ul>
-<ul>
-  <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/15.png">
-      <figure>
-        <img src="assets/images/portfolio/webapp/15.png" alt="imgae">
-      </figure>
-    </a>
-  </li>
-  </ul>
-<ul>
-  <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/16.png">
-      <figure>
-        <img src="assets/images/portfolio/webapp/16.png" alt="imgae">
-      </figure>
-    </a>
-  </li>
-  </ul>
-<ul>
-     <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/7.jpg">
-      <figure>
-        <img src="assets/images/portfolio/webapp/t-7.jpg" alt="imgae">
-      </figure>
-    </a>
-  </li>
-  </ul>
-<ul>
-     <li class="border-box-effect logoportfo" data-category="transition">
-    <a class="" data-fancybox="port" tabindex="-1"  href="assets/images/portfolio/webapp/8.jpg">
-      <figure>
-        <img src="assets/images/portfolio/webapp/t-8.jpg" alt="imgae">
-      </figure>
-    </a>
-  </li>
-
-</ul>
-    
-<!-- <li>
-  <a href="javascript:;" class="btn-main" id="loadmorewebapp" style="font-size: 14px;margin-top: 20px;">View More</a>
-</li> -->            </div>
-
-        
-
       </div>
+
+
+
+          <!-- Page Content -->
+      <div class="mt-5 page-top">
+      <?php include('include/portfolio/website.php');?>
     </div>
+
+
+
   </div>
 </section>
 
-
-
-
-
-
-<section class="sec-padding pricing-sec ptpx-0">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-10 offset-lg-1"> 
-        <p class="h2">Our Services Packages Include </p>
-        <p class="text-center text-orange"><b>Affordable</b></p>
-        <p>Our full-stack web application services are designed to fit your budget. Our affordable rates provide you with quality development services that you may never find with cheap services. </p>
-        <p class="text-center text-orange"><b>High-Quality </b></p>
-        <p>We believe in providing you quality within the timeframe and budget limit. Our web designers and developers hold years of experience in perfect, functional, and original web application softwares. </p>
-        <p class="text-center text-orange"><b>Accessible</b></p>
-        <p> Look below to find our services at affordable prices in the UK. Get your perfect web app for your brand right here with the best web application development company. </p>
-      </div>  
-      <div class="col-lg-12"> 
-
-     
-          
-        <div class="tab-content pricingboxes">
-          
-          
-
-
-          
-          <div id="web-portal" class="tab-pane active">
-            <div class="smallboxes packagesslider">
-
-  <div class="smallbox">
-  <div class="package_inner">
-    <h4>Business Website  <br> Package</h4>
-    <p class="h2"><span class="currency_symbol">£</span>1999.00 <span><s>£3998.00</s></span> </p>
-
-    <ul class="ticklist2 list-scroll">
-      <li class="heading">Website </li>
-      <li>15 to 20 Pages Website</li>
-      <li>Custom Made, Interactive, Dynamic &amp; High End Design</li>
-      <li>Custom WP (or) Custom PHP Development</li>
-      <li>1 jQuery Slider Banner</li>
-      <li>Up to 10 Custom Made Banner Designs</li>
-      <li>10 Stock Images</li>
-      <li>Unlimited Revisions</li>
-      <li>Special Hoover Effects</li>
-      <li>Content Management System (CMS)</li>
-      <li>Online Appointment/Scheduling/Online Ordering Integration (Optional)</li>
-      <li>Online Payment Integration (Optional)</li>
-      <li>Multi Lingual (Optional)</li>
-      <li>Custom Dynamic Forms (Optional)</li>
-      <li>Signup Area (For Newsletters, Offers etc.)</li>
-      <li>Search Bar</li>
-      <li>SEO Meta Tags</li>
-      <li>Live Feeds of Social Networks integration (Optional)</li>
-      <li>Mobile Responsive</li>
-      <li>Free Google Friendly Sitemap</li>
-      <li>Search Engine Submission</li>
-      <li>Complete W3C Certified HTML</li>
-      <li>Industry Specified Team of Expert Designers and Developers</li>
-      <li>Complete Deployment</li>
-      <li>Dedicated Accounts Manager</li>
-      <li class="heading">Video </li>
-      <li>15 Seconds 2D Explainer Video</li>
-      <li>Voice - Over &amp; Sound Effects</li>
-      <li>Professional Script Writing</li>
-      <li>Storyboard</li>
-      <li>100% Ownership Rights</li>
-      <li>100% Satisfaction Guarantee</li>
-      <li>100% Unique Design Guarantee</li>
-      <li>100% Money Back Guarantee *</li>
-    </ul>
-    <p class="text-center ad-don">Add on: <span>£50</span> for 24 Hours Rush Delivery</p>
-    <div class="actions">
-      <div class="row">
-        <div class="col-md-6 col-xs-6">
-          <div class="act-box1">
-            <a class="spek-us" tabindex="0" href="tel:+442038087061">
-              <span><small>Speak with us</small>+442038087061</span>
-            </a>
+    <section class="d-none d-md-flex bg-orange-gradient">
+      <div class="container pt-5 position-relative">
+        <div class="row">
+          <div class="col-md-12 text-center text-white">
+            <h2 class="font-w800 mb-3">How will you be benefited?  </h2>
+            <p class="font-20 font-w300">At this point, you have every one of your pages characterized and know how they show the web application guest, so it's an ideal opportunity to ensure everything works so that when you have a web application visitor, they don't get anything that may loosen their interest. Consolidate manual perusing of the web application on gadgets with computerized web application visitors to recognize everything from client experience issues to direct broken connections. </p>
           </div>
         </div>
-        <div class="col-md-6 col-xs-6">
-          <div class="act-box2">
-            <a class="wnt-disx" tabindex="0" href="javascript:;" onclick="setButtonURL();" target="_self">
-              <span><small>Want to discuss?</small> Live Chat Now</span>
-            </a>
+        <div class="row rowCards">
+          <div class="col-md-4 mb-2 mb-md-0">
+            <div class="text-center p-2">
+              <div class="card-body">
+                <img src="images/services/service-icn1.png" class="mb-4" alt="Home Icon">
+                <div class="font-25 font-w700 ">Availability across </div>
+                <span class="font-25 font-w700">gadgets for clients.</span>
+                <p class="font-14 mt-3 line-height-20">Fortunately, most work area programming can really be formed into a Web application, which implies that you can use it in any place you are, from any cell phone. This gives the client decision regarding when and where they should use the web application, advancing adaptable working inside organizations to build the general representative efficiency, these are the major perks by our Web app development experts.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-2 mb-md-0">
+            <div class="text-center p-2">
+              <div class="card-body">
+                <img src="images/services/service-icn2.png" class="mb-4" alt="Home Icon">
+                <div class="font-25 font-w700 ">Customization for</div>
+                <span class="font-25 font-w700">various gadgets</span>
+                <p class="font-14 mt-3 line-height-20">Content inside Web applications can be effortlessly redone for use on different gadgets, for example, portable. This makes the web application easy to use, and charming to use since the introduction of data can be changed appropriately. Truth be told, it is really simpler to edit applications than it is for standard ones. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-2 mb-md-0">
+            <div class="text-center p-2">
+              <div class="card-body">
+                <img src="images/services/service-icn3.png" class="mb-4" alt="Home Icon">
+                <div class="font-25 font-w700 ">Coordination with </div>
+                <span class="font-25 font-w700">different supports.</span>
+                <p class="font-14 mt-3 line-height-20">Web applications give a far more interesting capacity to coordinate with different frameworks than workplace applications. Confined programming is separated contrasted with Web applications which are altogether more compatible. This is because web applications can be connected together more effectively than two totally separate supports.  </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div></div>
-    <div class="price-btnwrap">
-      <a href="/packages/business-website-package/">View Details</a> 
-      <div class="row">
-         
-         <div class="col-md-12">
-          <a href="javascript:void(0)" class="btn-packages btn-packages2 " data-toggle="modal" data-target="#modalForDiscount" tabindex="0">Order Now </a>
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-  <div class="smallbox bst-selr">
-  <div class="package_inner">
-    <h4>Automated/Interactive <br>Conferencing Portal</h4>
-    <p class="h2"><span class="currency_symbol">£</span>3999.00 <span><s>£7998.00</s></span> </p>
-    <!-- <p>Suitable for potential super-startups and brand revamps for companies.</p> -->
-    <!-- <div class="hrline"></div> -->
+    </section>
     
-    <ul class="ticklist2 list-scroll">
-    <li class="heading">Website </li>
-      <li>Unlimited Page Website</li>
-      <li>Custom Content Management System (CMS)</li>
-      <li>Unique Pages and UI Design</li>
-      <li>Complete Custom Development</li>
-      <li>Process Automation Tools</li>
-      <li>Newsfeed Integration</li>
-      <li>Social Media Plugins Integration</li>
-      <li>Upto 40 Stock images</li>
-      <li>10 Unique Banner Designs</li>
-      <li>JQuery Slider</li>
-      <li>Search Engine Submission</li>
-      <li>Free Google Friendly Sitemap</li>
-      <li>Custom Email Addresses</li>
-      <li>Social Media Page Designs (Facebook, Twitter, Instagram)</li>
-      <li>Complete W3C Certified HTML</li>
-      <li>Complete Deployment</li>
-      <li>100% Satisfaction Guarantee</li>
-      <li>100% Unique Design Guarantee</li>
-      <li>Money Back Guarantee</li>
-      <li><strong>Key features</strong></li>
-      <li>Automated Course Creation</li>
-      <li>Video Conferencing</li>
-      <li>Skills/Certification Tracking</li>
-      <li>Mobile Learning</li>
-      <li>Asynchronous Learning</li>
-      <li>CRM Features</li>
-      <li>Gamification</li>
-      <li>Social Learning/Message Boards</li>
-      <li>Motivational Triggers</li>
-      <li>Forums And Webinars</li>
-      <li>E-commerce And Subscriptions</li>
-      <li>Online Course Booking</li>
-      <li>Excellent Reporting</li>
-      <li>Invoicing Integration</li>
-      <li>Financial Integrations</li>
-      <li>Student Information management</li>
-      <li>Automated communications</li>
-      <li>Learning Management System</li>
-      <li>Quick And Easy Course Scheduling</li>
-      <li>Reporting And Data Analysis</li>
-      <li>Assessment Management &amp; Live Feedback</li>
-      <li>Gradebooks</li>
-      <li>Quick User Integration</li>
-      <li>Easy Payment Methods</li>
-      <li>Online Communities &amp; Social Engagement</li>
-      <li>Curation of Resources And Adding Own Resources</li>
-    </ul>
-    <p class="text-center ad-don">Add on: <span>£50</span> for 24 Hours Rush Delivery</p>
+    <?php include_once('include/footer.php');?>
     
-    
-    <div class="actions">
-      <div class="row">
-        <div class="col-md-6 col-xs-6">
-          <div class="act-box1">
-            <a class="spek-us" tabindex="0" href="tel:+442038087061">
-              <span><small>Speak with us</small>+442038087061</span>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-6 col-xs-6">
-          <div class="act-box2">
-            <a class="wnt-disx" tabindex="0" href="javascript:;" onclick="setButtonURL();" target="_self">
-              <span><small>Want to discuss?</small> Live Chat Now</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
-      <div class="price-btnwrap">
-      <a href="/packages/automated-Interactive-conferencing-portal/">View Details</a>
-      <div class="row">
-         
-         <div class="col-md-12">
-          <a href="javascript:void(0)" class="btn-packages btn-packages2 " data-toggle="modal" data-target="#modalForDiscount" tabindex="0">Order Now </a>
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="smallbox">
-  <div class="package_inner">
-    <h4>Automated/Interactive <br> E-Commerce Website</h4>
-    <p class="h2"><span class="currency_symbol">£</span>4999.00 <span><s> £9998.00</s></span> </p>
-    <!-- <p>Suitable for potential super-startups and brand revamps for companies.</p> -->
-    <!-- <div class="hrline"></div> -->
-    
-    <ul class="ticklist2 list-scroll">
-        <li class="heading">Website </li>
-        <li>Unlimited Page Website</li>
-        <li>Custom Content Management System (CMS)</li>
-        <li>Unique Pages and UI Design</li>
-        <li>Complete Custom Development</li>
-        <li>Process Automation Tools</li>
-        <li>Newsfeed Integration</li>
-        <li>Social Media Plugins Integration</li>
-        <li>Upto 40 Stock images</li>
-        <li>10 Unique Banner Designs</li>
-        <li>JQuery Slider</li>
-        <li>Search Engine Submission</li>
-        <li>Free Google Friendly Sitemap</li>
-        <li>Custom Email Addresses</li>
-        <li>Social Media Page Designs (Facebook, Twitter, Instagram)</li>
-        <li>Complete W3C Certified HTML</li>
-        <li>Complete Deployment</li>
-        <li>100% Satisfaction Guarantee</li>
-        <li>100% Unique Design Guarantee</li>
-        <li>Money Back Guarantee</li>
-        <li><strong>Automated Inventory/Shipping/Supplier Module:</strong></li>
-        <li>Manage thousands to millions of inventory with ease and check stock levels in real-time. Receive low inventory notifications and generate purchase orders to replenish your stock.</li>
-        
-        <li>Suppliers Integration (API NEEDED)</li>
-        <li>Shipper Integration (API NEEDED)</li>
-        <li>Order management</li>
-        <li>LOT numbers and expire date tracking</li>
-        <li>Transfer stock between warehouses (If Warehouse - API NEEDED)</li>
-        <li>Receive stock into a specific warehouse (If Warehouse - API NEEDED)</li>
-        <li>Fulfill orders from a particular warehouse (If Warehouse - API NEEDED)</li>
-        <li>Stock Management</li>
-        <li>Actionable Insights</li>
-        <li>Real- Time Visibility</li>
-        <li>Inventory Opportunities</li>
-        
-        <li><strong>Advanced Features: (API Needed For Suppliers/Warehouse)</strong></li>
-        
-        <li>Speak to suppliers during trivial conversations.</li>
-        <li>Set and send actions to suppliers regarding governance and compliance materials.
-Place purchasing requests.</li>
-        <li>Research and answer internal questions regarding procurement functionalities or a supplier/supplier set.</li>
-        <li>Receiving/filing/documentation of invoices and payments/order requests</li>
-        <li>Machine Learning (ML) for Supply Chain Planning (SCP)</li>
-        <li>Machine Learning for Warehouse Management</li>
-        <li>Natural Language Processing (NLP) for Data Cleansing and Building Data Robustness</li>
-       
-       <li><strong>Automated Invoices &amp; Estimates</strong></li> 
-        
-        <li>Create beautiful, professional invoices &amp; estimates in just a few seconds and then instantly email them as PDF's directly to your customers or prospects.</li>
-        <li>Automated Split invoicing</li>
-        <li>Automated Combine invoices</li>
-        <li>Invoice templates</li>
-        
-        <li><strong>Automated Barcode Scanning</strong></li>
-        <li>Scan inventory into your orders, generate barcodes for your documents, and search for inventory or documents by scanning barcodes.
-</li>
-
-        <li><strong>Locations and Zones</strong></li>
-        <li>Have multiple warehouses, offices, or retail stores? No problem. Easily track where all your inventory is by organizing everything into locations and zones. Organize inventory items using custom attributes such as size, color, and location. View how many you have globally or at each location.</li>
-        
-        <li><strong>Customer Accounts</strong></li>
-        
-        <li>Performance and analytics</li>
-        <li>Customization of Personal Details</li>
-        <li>Process management</li>
-        <li>Sales Automation</li>
-        <li>Team Collaboration</li>
-        <li>Marketing Automation</li>
-        <li> Security</li>
-        <li>Integrations</li>
-        <li>Mobile Notifications</li>
-        <li>Sales Reports</li>
-        <li>Trend Analytics</li>
-        <li>Forecasting</li>
-        <li>Territory Management</li>
-        <li>Account Management</li>
-        <li>Event Integration</li>
-        <li>Advanced Data Security</li>
-        <li><strong>Purchase Orders</strong></li>
-        
-        <li>With integrated purchase orders, you can easily replenish your inventory levels by ordering more stock and even track when those new items will arrive.</li>
-        <li>Partial orders fulfill</li>
-        <li>Backordering</li>
-        
-        
-         <li><strong>Financial Reports</strong></li>
-        
-        <li>Generate extremely detailed reports for your inventory, sales and services. Filter your reports by date-range and category to see what's making you the most money.</li>
-                
-    </ul>
-    <p class="text-center ad-don">Add on: <span>£50</span> for 24 Hours Rush Delivery</p>
-    
-    
-    <div class="actions">
-      <div class="row">
-        <div class="col-md-6 col-xs-6">
-          <div class="act-box1">
-            <a class="spek-us" tabindex="0" href="tel:+442038087061">
-              <span><small>Speak with us</small>+442038087061</span>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-6 col-xs-6">
-          <div class="act-box2">
-            <a class="wnt-disx" tabindex="0" href="javascript:;" onclick="setButtonURL();" target="_self">
-              <span><small>Want to discuss?</small> Live Chat Now</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
-      <div class="price-btnwrap">
-      <a href="/packages/automated-interactive-e-Commerce-website/">View Details</a>
-      <div class="row">
-         
-         <div class="col-md-12">
-          <a href="javascript:void(0)" class="btn-packages btn-packages2 " data-toggle="modal" data-target="#modalForDiscount" tabindex="0">Order Now </a>
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-  
-  
-  
-</div>          </div>
-
-          
-
-      
-
-          
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="faqsSection my-5">
-<div class="container">
-  <h3 class="text-center"><b>FAQs</b></h3>
-  <div class="panel-group collapsed" id="accordion" role="tablist" aria-multiselectable="true" aria-expanded="false" >
-    <div class="panel panel-default">
-      <div class="panel-heading" role="tab" id="headingOne">
-        <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          1. What is a web application development company in the UK?
-        </a>
-      </h4>
-      </div>
-      <div id="collapseOne" class="panel-collapse collapse in show" role="tabpanel" aria-labelledby="headingOne">
-        <div class="panel-body">
-        Website Valley enables you to maximize your audience reach, lead more income generation opportunities, and create an organized platform for your consumers to interact and engage with your company or with each other. We also help you with web portal development. Now you don't have to search for the best web application services near me. 
-        </div>
-      </div>
-    </div>
-    <div class="panel panel-default">
-      <div class="panel-heading" role="tab" id="headingTwo">
-        <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          2. Do you offer responsive web app designs and development services? 
-        </a>
-      </h4>
-      </div>
-      <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-        <div class="panel-body">
-        Absolutely! Our primary purpose is to increase the web apps' efficiency and create responsive designs to adjust to the user's medium, be it a smartphone, desktop, laptop, or tablet. Our designs are highly responsive and provide easy navigation to the users. Consult our customer support to discuss your project, and we'll advise you accordingly. As an established and reputable company, we bring you a wide range of options, meaning you can purchase a professionally made web app within your specific budget range.
-        </div>
-      </div>
-    </div>
-    <div class="panel panel-default">
-      <div class="panel-heading" role="tab" id="headingThree">
-        <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          3. What is our custom web application development services process? 
-        </a>
-      </h4>
-      </div>
-      <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-        <div class="panel-body">
-        Our web applications development services are easy to use and entirely convenient for the users due to the interactive user interface design and experience. As a web app development company, we have created a comprehensive process to understand the project first then deliver your required results. Our approach may include the following steps, depending on the stage of web app development. Our software engineers and web app development experts work alongside you to understand your project. We brainstorm and make a list of all the functions you want to include in your web app.
-        <br>Our second stage consists of analysis and peer review in which we create the strategy of how to go about your project. Our designers and web app development experts create the blueprint, while our coders dissect the process to code for your project on every stage. Once our designers and developers are done creating their masterpiece, we show it to the client. When our client approves the initial draft of the web app, we work to make it perform stronger, better, and bugs or threats free so that all the consumers of this application have the best experience. Hire a top-quality web app development company in the UK for your digital needs. 
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</section>
-
-  
-
- 
-
-
-
-
-
-
-
-
-
-
-<?php include_once('includes/footer.php');?>
-<?php include_once('includes/scripts.php');?>
-
-<script>
-// $(document).ready(function(){
-  if(window.innerWidth>992){
-
-  
-  var mesure = $('.measure-height').height();
-  var make = $('.make-height').height(mesure);
-  }   
-  // });
-</script>
-</body>
-
-<!-- Mirrored from websitevalley.co.uk/web-app-development by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 21 Jan 2021 17:41:04 GMT -->
+    <?php include_once('include/scripts.php');?>
+  </body>
 </html>

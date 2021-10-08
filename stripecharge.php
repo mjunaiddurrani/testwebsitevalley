@@ -1,6 +1,6 @@
 <?php
 ob_start();
-session_start();
+// session_start();
 
 $token = $_POST['stripeToken'];
 $last4 = $_POST['last4'];
@@ -20,8 +20,7 @@ $leadId=$_POST['lead_id'];
 $TOKEN_URL=$_POST['TOKEN'];
 $currency=$_POST['currency'];
 $brand=$_POST['brand'];
-// var_dump($brand);
-// die();
+
 $data = array(
     'leadid' => $leadId,
     'currency' => $currency,

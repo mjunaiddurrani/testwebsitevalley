@@ -1,0 +1,160 @@
+/* Metabox tabs additional styling (some of it comes from default admin styles) */
+#mthemes-metabox .wp-tab-panel {
+	display: none;
+}
+#mthemes-metabox .wp-tab-panel#mthemes-mb-tab-1 {
+	display: block;
+}
+#mthemes-metabox .wp-tab-panel {
+	max-height: none !important;
+	background: #fff;
+	padding: 0px 18px 10px;
+}
+#mthemes-metabox ul.wp-tab-bar {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+#mthemes-metabox ul.wp-tab-bar {
+	padding-top: 6px;
+}
+#mthemes-metabox ul.wp-tab-bar::after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	zoom: 1;
+}
+#mthemes-metabox ul.wp-tab-bar li {
+	padding: 7px 18px;
+	font-size: 14px;
+	line-height: 24px;
+}
+#mthemes-metabox .wp-tab-active {
+	background: #fff;
+}
+
+/* Metabox panel additional styling */
+#mthemes-metabox tr {
+	border-top: 1px solid #eee;
+}
+#mthemes-metabox tr:first-child {
+	border: none;
+}
+#mthemes-metabox th {
+	width: 240px;
+}
+#mthemes-metabox label {
+	display: block;
+}
+#mthemes-metabox th label span {
+	margin-right: 7px;
+}
+#mthemes-metabox input[type="text"],
+#mthemes-metabox input[type="number"],
+#mthemes-metabox .mthemes-mb-textarea-code {
+	width: 40%;
+}
+#mthemes-metabox textarea {
+	width: 100%;
+}
+#mthemes-metabox select {
+	min-width: 40%;
+}
+#mthemes-metabox .mt-tab-desc {
+	margin-top: 20px;
+	font-size: 14px;
+}
+#mthemes-metabox .mt-meta-description {
+	margin-top: 5px;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+/* Gallery meta box field styles */
+#mt_gallery_images_container {
+	margin-bottom: 15px;
+}
+.mt_gallery_images .details.attachment {
+	box-shadow: none;
+}
+.mt_gallery_images .image > div {
+	width: 100px;
+	height: 100px;
+	box-shadow: none;
+}
+.mt_gallery_images .attachment-preview {
+	position: relative;
+	padding: 3px;
+}
+.mt_gallery_images .attachment-preview .thumbnail {
+	cursor: move;
+}    
+.mt_gallery_images .mt-metabox-sortable-placeholder {
+	width: 106px;
+	height: 106px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border: 3px dashed #ddd;
+	background: url(../img/image.png) #eee center center no-repeat;
+}      
+.mt_gallery_images a.delete {
+	background-color: #222;
+	color: #fff;
+	position: absolute;
+	top: -8px;
+	right: -8px;
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 14px;
+	text-align: center;
+	margin: 0;
+	display: none;
+	overflow: hidden;
+	text-decoration: none;
+	border-radius: 50%;
+} 
+.mt_gallery_images .image div:hover a.delete {
+	display: block;
+}
+.mt_gallery_images::after,
+#mt_gallery_images_container::after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+#mt_gallery_images_container ul {
+	margin: 0 !important;
+}
+.mt_gallery_images > li {
+	float: left;
+	cursor: move;
+	margin: 9px 9px 0 0;
+}
+.mt_gallery_images li.image img {
+	width: 100px;
+	height: 100px;
+}
+.mt_gallery_images .attachment-preview::before {
+	display: none !important;
+}
+
+/* Other meta box fields */
+.mt-meta-info {
+	background: rgba(0, 0, 0, 0.03);
+	padding: 20px;
+	font-style: italic;
+}
+.mt-mb-media-thumb {
+	margin: 5px 1px;
+	width: auto;
+	height: 50px;
+}

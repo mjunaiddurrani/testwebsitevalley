@@ -1,6 +1,6 @@
 <?php
 ob_start();
-session_start();
+// session_start();
 
 date_default_timezone_set("Asia/Karachi");  
 $phpSelf = filter_input(INPUT_SERVER, 'PHP_SELF', FILTER_SANITIZE_URL);
@@ -75,7 +75,6 @@ if ($response=="") {
 // die();
 ?>
 <!DOCTYPE html>
-<html lang="en-GB">
 <head>
 <?php 
 if (isset($_SERVER['HTTPS'])) {
@@ -93,14 +92,14 @@ ini_set('display_errors', 1);
  ?>
 
 <!doctype html>
-<html lang="en-GB">
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
-
-  <title>WebsiteValley</title>
+  <title>TheWebFounder</title>
     <meta name="description" content=""> 
    
  
-   <?php include_once('includes/styles.php');?>
+   <?php include_once('include/styles.php');?>
    
 <style>
 	.inner_bg{
@@ -115,11 +114,11 @@ ini_set('display_errors', 1);
     z-index: 999;
     width: 100%;
     top: 0;
-    background-color: #f8f9fa8a;
+    background-color: #0000004f;
     padding: 15px 0;
 }
 
-body{
+	body{
 		font-family: "Nunito";
 	}
 	.containerCheckBox span{
@@ -231,6 +230,7 @@ body{
 
 
 	}
+	
 </style>
 </head>
 <body>
@@ -240,7 +240,7 @@ body{
    <div class="main_nav">
         <div class="container">   
             <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand logo" href="index.php" data-aos="fade-down" data-aos-duration="1000"> <img class="" style="max-width: 35%;" src="assets/images/logo.png" alt="imgae"> </a>
+                <a class="navbar-brand logo" href="index.php" data-aos="fade-down" data-aos-duration="1000"> <img class="img-fluid" src="images/home/logo.png" alt=""> </a>
                     
             </nav>        
         </div>
@@ -251,7 +251,7 @@ body{
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
-                    <h2 class="inner_title" data-aos="fade-up" data-aos-duration="1000" style="color:#ffff">Complete Your Payment</h2>
+                    <h2 class="inner_title" data-aos="fade-up" data-aos-duration="1000">Complete Your Payment</h2>
                 </div>
             </div>
         </div>
@@ -268,8 +268,8 @@ body{
 				<div class="cardInfo">
 					<div class="card myCardPay" >
 						<div class="card-header text-center text-black">
-							<h2 class="card-heading">Invoice from WebsiteValley</h2>
-							<p>Billed to <?php echo $dataLeads->fname; ?> <?php echo $dataLeads->lname; ?></p>
+							<h2 class="card-heading" style="color:black;">Invoice from TheWebFounder</h2>
+							<p style="color:black;">Billed to <?php echo $dataLeads->fname; ?> <?php echo $dataLeads->lname; ?></p>
 						</div>
 					
 						<div class="card-body text-center" style="padding-left:200px;padding-right:200px">
@@ -372,7 +372,6 @@ body{
 </section>
 <!-- ./Tabs -->
 
-
 <!-- <script src="js/jquery.min.js"></script> -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -429,7 +428,7 @@ $(document).ready(function(){
 	$("#payment-form").submit(function (e) {
 	$('.submitPay').prop('disabled',true);
 });
-})
+});
 </script>
 
 <?php

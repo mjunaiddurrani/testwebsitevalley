@@ -1,0 +1,69 @@
+.section1{padding: 250px 0 200px;position: relative;}
+.section1 h1{font-size: 90px; line-height: 103px;font-weight: 800;text-transform: capitalize;}
+.myCard2{
+	padding: 30px 20px;
+}
+.overlay{background: rgba(0,0,0,0.4);
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;}
+
+.contentScroll{
+	height: 210px;
+	margin: 20px 0 0;
+	overflow-y: auto;
+}
+/* width */
+.contentScroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.contentScroll::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px black; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.contentScroll::-webkit-scrollbar-thumb {
+  background: #565a6b; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.contentScroll::-webkit-scrollbar-thumb:hover {
+  background: #00072e; 
+}
+.contentScroll-upper{height: 46px;margin-bottom: 15px;}
+.owl-carousel .owl-nav.disabled{
+  display: block;
+}
+.service-pricing-bot{padding: 127px 0 90px;}
+.rowCards img{height: 80px;}
+
+@media(max-width:767px){
+  .section1 h1{font-size: 60px; line-height:initial;font-weight: 700;}
+}
+@media(max-width:576px){
+  .section1 h1{font-size: 40px; line-height:initial;font-weight: 700;}
+}
+
+.screen {
+  width: 100%;
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.screen img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  max-width: 290px;
+  transition: transform 1s ease-in-out 0.5s;
+}
+.screen:hover img {
+  transform: translateY(-50%);
+}
