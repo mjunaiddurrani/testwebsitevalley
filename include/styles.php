@@ -1,6 +1,6 @@
 
 <?php
-require('autoload.php');
+require('nitro.start.php');
 include_once("token.php");
 if (isset($_SERVER['HTTPS'])) {
 	$requesMet = "https";
