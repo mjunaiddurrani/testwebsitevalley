@@ -30,12 +30,11 @@ if (isset($_SERVER['HTTPS'])) {
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
 <link rel="stylesheet" href="../use.fontawesome.com/releases/v5.8.1/css/all.css">
-<link rel="stylesheet" type="text/css" href="assets/css/simpleLightbox.min.css">
+<!-- <link rel="stylesheet" type="text/css" href="assets/css/simpleLightbox.min.css"> -->
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 <link rel="stylesheet" type="text/css" href="assets/css/style-web.css">
 <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
-<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;display=swap"
-        rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;display=swap" rel="stylesheet">
 		<style>
 			
 			.grid{

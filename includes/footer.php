@@ -394,8 +394,9 @@
   </div>
 </div>
 
-    <script type="text/javascript" src="assets/js/simpleLightbox.min.js"></script>
+    
     <script type="text/javascript" src="assets/js/libs.js"></script>
+    <script type="text/javascript" src="assets/js/simpleLightbox.min.js"></script>
     <script type="text/javascript" src="assets/js/functions.js"></script>
     
     <!-- <script>
@@ -482,11 +483,16 @@ $(".modalForm").click(function(){
     resetForm()
 })
 
-
+// setTimeout(() => {
+//     $('head').append(`<script type="text/javascript" src="assets/js/simpleLightbox.min.js"><\/script>`)
+// }, 10000);
 
 setTimeout(() => {
-    alert(33)
     $('head').append(`<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=e875f34d-5587-4a8a-9aab-1dec433c665f"><\/script>`)
 }, 15000);
+
+setTimeout(() => {
+    $('head').append(`<link rel="stylesheet" type="text/css" href="assets/css/simpleLightbox.min.css">`)
+}, 5000);
 
 </script>

@@ -30,7 +30,7 @@
 <section class="our-banner text-center">
     <video poster=" " id="bgvid" playsinline="" autoplay="" muted="" loop="">
         <!--<source src="https://www.logoiconix.com/assets/video/video.webm" type="video/webm"> -->
-        <source src="assets/video/company-background-video.mp4" type="video/mp4">
+        <source src="https://vod-progressive.akamaized.net/exp=1633993974~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F872%2F25%2F629360908%2F2898409575.mp4~hmac=03f2d5491af7d65fd9447e6b0a1652458dbd1ecb0dbe36548c5d268df8ea3ade/vimeo-prod-skyfire-std-us/01/872/25/629360908/2898409575.mp4?filename=company-background-video.mp4" type="video/mp4">
     </video>
     <div class="container">
         <div class="caption">
