@@ -1,5 +1,9 @@
-User-agent: * 
-Disallow: / 
+ User-agent: Googlebot
+   Allow: /
 
+    User-agent: Googlebot-Mobile
+    Allow: /
 
-sitemap: https://www.thewebfounders.co.uk/sitemap.xml
+User-agent: *
+Disallow: /
+  

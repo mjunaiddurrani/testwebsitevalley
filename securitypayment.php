@@ -1,6 +1,6 @@
 <?php
 ob_start();
-// session_start();
+session_start();
 
 date_default_timezone_set("Asia/Karachi");  
 $phpSelf = filter_input(INPUT_SERVER, 'PHP_SELF', FILTER_SANITIZE_URL);
@@ -13,7 +13,7 @@ if(!isset($_REQUEST['TOKEN'])){
 $token=$_REQUEST['TOKEN'];
 $curl = curl_init();
 curl_setopt_array($curl, array(
-	CURLOPT_URL => "https://dashboard.ghostwritingfounder.com/api/leads/$token",
+	CURLOPT_URL => "https://dashboard.ourbase.camp/api/leads/$token",
 	CURLOPT_RETURNTRANSFER => true,
 	CURLOPT_ENCODING => "",
 	CURLOPT_MAXREDIRS => 10,
@@ -75,6 +75,7 @@ if ($response=="") {
 // die();
 ?>
 <!DOCTYPE html>
+<html lang="en-US">
 <head>
 <?php 
 if (isset($_SERVER['HTTPS'])) {
@@ -89,17 +90,43 @@ if (isset($_SERVER['HTTPS'])) {
 
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
+$brandurl = array(
+	'brandurl'=> $dataLeads->brand
+);
+$brandurl = json_encode($brandurl);
+$curl = curl_init();
+curl_setopt_array($curl, array(
+	CURLOPT_URL => "https://dashboard.ourbase.camp/api/accountkey",
+	CURLOPT_RETURNTRANSFER => true,
+	CURLOPT_ENCODING => "",
+	CURLOPT_MAXREDIRS => 10,
+	CURLOPT_TIMEOUT => 30,
+	CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+	CURLOPT_CUSTOMREQUEST => "GET",
+	CURLOPT_POSTFIELDS => $brandurl,
+	CURLOPT_HTTPHEADER => array(
+		'Content-Type: application/json',
+
+	),
+	));
+	$response = curl_exec($curl);
+	$err = curl_error($curl);
+	curl_close($curl);
+	$keys=json_decode($response);
+	// echo "<pre>";
+	// var_dump($keys[0]->account_type);die;
+	$account_type = $keys[0]->account_type;
  ?>
 
 <!doctype html>
 <html lang="en">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
-  <title>TheWebFounder</title>
+  <title>ProficientWebDesigns</title>
     <meta name="description" content=""> 
    
  
-   <?php include_once('include/styles.php');?>
+   <?php include_once('includes/head.php');?>
    
 <style>
 	.inner_bg{
@@ -116,121 +143,19 @@ ini_set('display_errors', 1);
     top: 0;
     background-color: #0000004f;
     padding: 15px 0;
+
+
+
 }
 
-	body{
-		font-family: "Nunito";
-	}
-	.containerCheckBox span{
-		font-size:14px;
-	}
-	a:hover{
-		text-decoration: none;
-	}
-	.section1 {
-	    background-image: url(../img/section1/checkout.jpg);
-	    background-size: cover;
-	    background-repeat: no-repeat;
-	    min-height: 350px;
-	    padding-bottom: 108px;
-	}
-	.section2{
-		background:none;
-		color: black;
-	}
-	.paymentHeading{
-		color: green;
-		font-family: "Nunito";
-		font-weight: 600;
-	}
-	.paymentTabs{
-		margin-top: 40px;
-	}
-	.tab{
-		padding: 20px 10px;
-		border:3px solid #b0aeae;
-		border-radius: 10px;
-		margin:0 auto;
-		text-align: center;
-		transition: .4s ease-in-out;
-	}
-	.tab:hover{
-		border: 3px solid green;
-		transition: .4s ease-in-out;
-	}
-	.tab.active{
-		border:3px solid green;
-		
-	}
-	.tab.active::before{
-		font-family: "FontAwesome";
-		position: absolute;
-		right: 0;
-		top: -20px;
-		content: "\f058";
-		font-size: 40px;
-		font-weight: 200;
-		color: green;
-		background:white;
-		height: 40px;
+@media only screen and (max-width: 600px) {
 
-	}
-	.paymentDescription{
-		font-size: 18px;
-		font-weight: 800;
-		font-family: "Nunito";
-		color: #b0aeae;
-		transition: .4s ease-in-out;
-	}
-	.tab.active .paymentDescription{
-		color: green;
-	}
-	.tab:hover .paymentDescription{
-		color: green;
-		transition: .3s ease-in-out;
-	}
-	.myCardPay{
-		background:#fcfcfc;
-		margin-top: 40px;
-		width: 100% !important;
-	}
-	.card-heading{
-		text-align: center;
-		font-family: "Nunito";
-		font-weight: 800;
-		font-size: 23px;
-	}
-	.submitPay{
-		font-size: 20px;
-		font-weight: 700;
-		font-family: "Nunito";
-		padding:18px 50px;
-	}
-	.authorizeForm *{
-		font-family: "Nunito";
-	}
-	label{
-		float:left !important;
-	}
-    @media (max-width: 767px){
-		.card-body{
-			padding-left:50px !important;
-			padding-right:50px !important;
-		}
-		.myContainer{
-			margin-top:10px !important;
-		}
-
-
-.table td, .table th {
-
-    font-size: 9px !important;
+	.card-body {
+padding-left: 10px !important;
+padding-right:10px  !important;
+}
 }
 
-
-
-	}
-	
 </style>
 </head>
 <body>
@@ -240,7 +165,7 @@ ini_set('display_errors', 1);
    <div class="main_nav">
         <div class="container">   
             <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand logo" href="index.php" data-aos="fade-down" data-aos-duration="1000"> <img class="img-fluid" src="images/home/logo.png" alt=""> </a>
+                <a class="navbar-brand logo" href="/" data-aos="fade-down" data-aos-duration="1000"> <img class="img-fluid" src="assets/images/logo.png" alt="" style="max-width: 30%; filter: brightness(0) invert(1);"> </a>
                     
             </nav>        
         </div>
@@ -251,7 +176,7 @@ ini_set('display_errors', 1);
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
-                    <h2 class="inner_title" data-aos="fade-up" data-aos-duration="1000">Complete Your Payment</h2>
+                    <h2 class="inner_title" data-aos="fade-up" data-aos-duration="1000" style="color: #ffff;">Complete Your Payment</h2>
                 </div>
             </div>
         </div>
@@ -268,8 +193,8 @@ ini_set('display_errors', 1);
 				<div class="cardInfo">
 					<div class="card myCardPay" >
 						<div class="card-header text-center text-black">
-							<h2 class="card-heading" style="color:black;">Invoice from TheWebFounder</h2>
-							<p style="color:black;">Billed to <?php echo $dataLeads->fname; ?> <?php echo $dataLeads->lname; ?></p>
+							<h2 class="card-heading">Invoice from Proficient Web Designs</h2>
+							<p>Billed to <?php echo $dataLeads->fname; ?> <?php echo $dataLeads->lname; ?></p>
 						</div>
 					
 						<div class="card-body text-center" style="padding-left:200px;padding-right:200px">
@@ -316,6 +241,61 @@ ini_set('display_errors', 1);
 										<input type="hidden" name="lead_id" value="<?php echo $dataLeads->id; ?>">
 										<input type="hidden" name="address" value="<?php echo $dataLeads->address; ?>" >
 										<input type="hidden" name="description" value="<?php echo $dataLeads->description; ?>" >
+										<input type="hidden" name="account_type" value="<?php echo $account_type; ?>" >
+										<?php if($account_type == 'nmi'):?>	
+										<div class="row">
+											<div class="col-md-6">
+												<div class="form-group">
+													<label class="text-black">CARD NUMBER</label>
+													<input class="form-control" type="text" name="card_number" placeholder="1234 1234 1234 1234" autocomplete="off" requir	ed="">
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div class="form-group">
+													<label class="text-black">Zip Code</label>
+													<input class="form-control" type="text" name="zipcode" placeholder="123" autocomplete="off" required="">
+												</div>
+											</div>
+										</div>
+											<div class="row">
+												<div class="col-md-3">
+													<div class="form-group">
+														
+														<div>
+															<label class="text-black" for="EXPIRY">EXPIRY MONTH</label>
+														</div>
+														<!-- <input type="month" id="EXPIRY" name="start"
+																	min="2018-03" value="2023-05" class="form-control"> -->
+														<div class="">
+															<input class="form-control " type="text" name="card_exp_month" placeholder="MM" minlength="2" maxlength="2" required="">
+														</div>
+														
+													</div>
+													</div>
+													<div class="col-md-3">
+													<div class="form-group">
+														<div>
+															<label class="text-black" for="EXPIRY">EXPIRY YEAR</label>
+														</div>
+														<div class="">
+															<input class="form-control " type="text" name="card_exp_year" placeholder="YY" minlength="2" maxlength="2" required="">
+														</div>
+														
+													</div>
+												</div>
+												<div class="col-md-6">
+														<div class="form-group">
+														<label class="text-black">CVC CODE</label>
+														<input class="form-control" type="text" name="card_cvc" placeholder="CVC" autocomplete="off" required="">
+													</div>
+												</div>
+												<div class="col-md-3"></div>
+											</div>
+											<div class="text-center">
+												<button type="submit" class="btn btn-success submitPay">Submit Payment</button>
+											</div>
+										<?php else:
+										?>
 										<div class="form-row">
 										
 										<div id="card-element" class="form-control">
@@ -330,6 +310,7 @@ ini_set('display_errors', 1);
 										<br>
 										<button class="btn btn-success submitPay">Finish and Pay</button>
 										</div>
+										<?php endif ?>
 									</form>
 								</div>
 							</div>
@@ -371,6 +352,7 @@ ini_set('display_errors', 1);
 	</div>
 </section>
 <!-- ./Tabs -->
+
 
 <!-- <script src="js/jquery.min.js"></script> -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -425,10 +407,7 @@ $(document).ready(function(){
 	    	$('#navbar').removeClass('sticky');
 	    }
 	});
-	$("#payment-form").submit(function (e) {
-	$('.submitPay').prop('disabled',true);
-});
-});
+})
 </script>
 
 <?php
