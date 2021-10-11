@@ -304,7 +304,7 @@ button.play.rounded-box.state-playing {
     </style>
 </head>
 
-<body  style="overflow-x: hidden;">
+<body  style="">
   <?php include_once('include/header.php') ?>
   <body>
   <section class="section1 inerservice-banner" >
