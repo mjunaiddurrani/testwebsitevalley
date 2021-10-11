@@ -397,7 +397,7 @@
     <script type="text/javascript" src="assets/js/simpleLightbox.min.js"></script>
     <script type="text/javascript" src="assets/js/libs.js"></script>
     <script type="text/javascript" src="assets/js/functions.js"></script>
-    <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=e875f34d-5587-4a8a-9aab-1dec433c665f"></script>
+    
     <!-- <script>
 setTimeout(function(){  
 $('head').append('<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=e875f34d-5587-4a8a-9aab-1dec433c665f"><\/script>');
@@ -481,4 +481,12 @@ $(".modalForm").click(function(){
     $("#LeadForm").modal('show');
     resetForm()
 })
+
+
+
+setTimeout(() => {
+    alert(33)
+    $('head').append(`<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=e875f34d-5587-4a8a-9aab-1dec433c665f"><\/script>`)
+}, 15000);
+
 </script>
